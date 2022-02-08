@@ -69,7 +69,7 @@ export const setMetal = (id) => {
 export const setSize = (id) => {
     database.orderBuilder.sizeId = id
 }
-
+// putting a property on the order builder object
 export const setStyle = (id) => {
     database.orderBuilder.styleId = id
 }
